@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1350px) {
+    /* navbar */
+    nav .navbar{
+        font-size: 13px;
+        gap: 18px;
+    }
+
+    .secnavbar{
+        font-size: 13px;
+        gap: 14px
+    }
+
+    .secnavbar li img{
+        height: 15px;
+    }
+
+    .first{
+        font-size: 14px;
+    }
+
+    /* section 1 */
+    .packed{
+        padding: 18px 30px;
+    }
+
+    .packed > :first-child{
+        font-size: 20px;
+        padding-bottom: 11px;
+    }
+
+    .packed > :nth-child(2){
+        font-size: 14px;
+    }
+
+    .packed .btn{
+        padding: 6px 14px;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+}
